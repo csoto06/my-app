@@ -1,0 +1,18 @@
+<p>home works!</p>
+
+<div>
+    <h2>Data API Demo</h2>
+    <ul>
+        <!-- <il *ngFor="let item of data">
+            {
+                {item.companyName}
+            }
+        </il> -->
+        @for (item of data; track $index) 
+        {
+            <li>
+                {{ item.companyName }}
+            </li>
+        }
+    </ul>
+</div>
